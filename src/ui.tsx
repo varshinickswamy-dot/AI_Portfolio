@@ -359,7 +359,7 @@ function About() {
           <div className="space-y-4 text-lg leading-relaxed text-slate-300">
             <p>I like the part of an application where the code meets the data. My base is Core Java: object-oriented design, exception handling, multithreading and the Collections Framework. On top of it I build web apps with JDBC, Servlets, JSP, HTML5, CSS3 and MySQL.</p>
             <p>I write SQL beyond basic queries, including joins, subqueries, views, CTEs, indexes, triggers, stored procedures and window functions. Outside the Java stack I build applied AI projects in Python, from fraud detection to medical imaging.</p>
-            <p>I study Information Science and Engineering at Vivekananda Institute of Engineering, Bengaluru, and I am a full stack development intern at Dhee Coding Lab. I want to build reliable, user-focused applications and keep learning modern development tools.</p>
+            <p>I study Information Science and Engineering at Vivekananda Institute of Technology, Bengaluru, and I am a full stack development intern at Dhee Coding Lab. I want to build reliable, user-focused applications and keep learning modern development tools.</p>
           </div>
           <div className="grid grid-cols-2 gap-4">
             {STATS.map((s) => (

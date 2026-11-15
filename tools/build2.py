@@ -55,7 +55,7 @@ fallback=f'''<div id="root">
 <p style="max-width:42rem;margin-top:1rem;font-size:1.1rem">Java full stack developer in training. I build Servlet, JSP, JDBC and MySQL applications, and machine learning projects that ship inside working apps.</p>
 <div class="sf-btns">{ext(L['github'],'GitHub','sf-btn p')}{ext(L['linkedin'],'LinkedIn','sf-btn')}{ext(L['repos'],'All repositories','sf-btn')}<a class="sf-btn" href="mailto:{L['email']}">Email me</a></div>
 <p id="boot-msg" class="sf-note">Loading the interactive version. Everything below already works.</p></div>
-<section id="sf-about"><h2>About</h2><p style="max-width:46rem">Final year Information Science student at Vivekananda Institute of Engineering with a 9.24 CGPA, currently interning as a Java Full Stack Developer at Dhee Coding Lab. I like clean data models, readable code, and shipping features end to end.</p><div class="sf-grid">{stats}</div></section>
+<section id="sf-about"><h2>About</h2><p style="max-width:46rem">Final year Information Science student at Vivekananda Institute of Technology with a 9.24 CGPA, currently interning as a Java Full Stack Developer at Dhee Coding Lab. I like clean data models, readable code, and shipping features end to end.</p><div class="sf-grid">{stats}</div></section>
 <section id="sf-skills"><h2>Skills</h2><div class="sf-grid">{skills}</div></section>
 <section id="sf-projects"><h2>Projects</h2><p class="sf-muted">Every link opens the real GitHub repository.</p><div class="sf-grid">{projs}</div></section>
 <section id="sf-exp"><h2>Experience and education</h2><div class="sf-grid">{exp}</div></section>

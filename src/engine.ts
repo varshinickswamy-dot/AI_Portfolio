@@ -11,7 +11,7 @@ const SPELL: Array<[RegExp, string]> = [
   [/\bJSP\b/g, 'J S P'], [/\bJDBC\b/g, 'J D B C'], [/\bMySQL\b/g, 'My S Q L'], [/\bSQL\b/g, 'S Q L'],
   [/\bAI\b/g, 'A I'], [/\bCNN\b/g, 'C N N'], [/\bPDF\b/g, 'P D F'], [/\bAPIs\b/g, 'A P Is'],
   [/\bAPI\b/g, 'A P I'], [/\bCGPA\b/g, 'C G P A'], [/\bHTML5?\b/g, 'H T M L'], [/\bCSS3?\b/g, 'C S S'],
-  [/\bSSLC\b/g, 'S S L C'], [/\bUI\b/g, 'U I'], [/Grad-CAM/g, 'Grad cam'], [/GitHub/g, 'Git Hub'],
+  [/\bSSLC\b/g, 'S S L C'], [/\bUI\b/g, 'U I'], [/Grad-CAM/g, 'Grad cam'], [/GitHub/g, 'Git Hub'], [/Vivekananda Institute of Technology/gi, 'Vee-vay-kah-nun-dah Institute of Technology'],
   [/scikit-learn/g, 'sy-kit learn'], [/\bVite\b/g, 'Veet'], [/OpenCV/g, 'Open C V'], [/\bVTU\b/g, 'V T U']
 ];
 

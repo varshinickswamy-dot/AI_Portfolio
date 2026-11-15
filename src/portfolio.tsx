@@ -20,7 +20,7 @@ const SPELL: Array<[RegExp, string]> = [
   [/\bJSP\b/g, 'J S P'], [/\bJDBC\b/g, 'J D B C'], [/\bMySQL\b/g, 'My S Q L'], [/\bSQL\b/g, 'S Q L'],
   [/\bAI\b/g, 'A I'], [/\bCNN\b/g, 'C N N'], [/\bPDF\b/g, 'P D F'], [/\bAPIs\b/g, 'A P Is'],
   [/\bAPI\b/g, 'A P I'], [/\bCGPA\b/g, 'C G P A'], [/\bHTML5?\b/g, 'H T M L'], [/\bCSS3?\b/g, 'C S S'],
-  [/\bSSLC\b/g, 'S S L C'], [/\bUI\b/g, 'U I'], [/Grad-CAM/g, 'Grad cam'], [/GitHub/g, 'Git Hub'],
+  [/\bSSLC\b/g, 'S S L C'], [/\bUI\b/g, 'U I'], [/Grad-CAM/g, 'Grad cam'], [/GitHub/g, 'Git Hub'], [/Vivekananda Institute of Technology/gi, 'Vee-vay-kah-nun-dah Institute of Technology'],
   [/scikit-learn/g, 'sy-kit learn'], [/\bVite\b/g, 'Veet'], [/OpenCV/g, 'Open C V'], [/\bVTU\b/g, 'V T U']
 ];
 
@@ -1214,13 +1214,13 @@ const PROJECTS: Project[] = [
   },
   {
     id: 'smartyhub', name: 'SmartyHub: The Student Mentor', sector: 'EdTech', featured: true,
-    status: 'Live app and repository', repo: GH + '/SmartyHub_The-Student-Mentor', live: 'https://smarty-hub-the-student-mentor.vercel.app', tags: ['JavaScript'],
-    summary: 'A student platform with career guidance, a chatbot, a resume tool and a study timer, deployed live on Vercel.',
+    status: 'Public repository', repo: GH + '/SmartyHub_The-Student-Mentor', tags: ['JavaScript'],
+    summary: 'A student platform with career guidance, a chatbot, a resume tool and a study timer.',
     arch: ['Student sign in', 'Career guidance', 'Chatbot', 'Resume tool', 'Study timer'],
-    archNote: 'A web front end for students, deployed on Vercel.',
-    stack: ['HTML', 'CSS', 'JavaScript', 'Vercel'],
+    archNote: 'A web front end for students.',
+    stack: ['HTML', 'CSS', 'JavaScript'],
     pitch: lines([
-      'SmartyHub is a student mentor platform that I deployed live on Vercel.',
+      'SmartyHub is a student mentor platform available in my GitHub projects.',
       'It brings career guidance, a chatbot, a resume tool and a study timer together in one place.'
     ])
   },
@@ -1371,7 +1371,7 @@ const PROJECTS: Project[] = [
 const INTRO: Line[] = lines([
   "Hi, I'm Varshini.",
   "I'm an aspiring Java developer based in Bengaluru, and I'm a Java full stack development intern at Dhee Coding Lab.",
-  "I'm studying Information Science and Engineering at Vivekananda Institute of Engineering, and my CGPA is 9.24.",
+  "I'm studying Information Science and Engineering at Vivekananda Institute of Technology, and my CGPA is 9.24.",
   "My core stack is Java, Servlets, JSP, JDBC and MySQL, and I also build machine learning projects for fraud detection, medical imaging and cyber security.",
   "My flagship projects are HerSphere, a live AI career platform, and JalRakshak AI, a smart water monitoring system for leakage and theft detection.",
   "I'm looking for internships and entry level roles. Scroll down to see my work, or start the audio tour and I'll walk you through it."
@@ -1499,7 +1499,7 @@ const EXPERIENCE: Milestone[] = [
     body: 'Building web applications with Core Java, HTML, CSS, JDBC, Servlets, JSP and MySQL. Implementing CRUD operations with Java and MySQL, and strengthening debugging, database management and problem-solving through practical projects.'
   },
   {
-    when: 'Aug 2023 to now', title: 'B.E. in Information Science and Engineering', org: 'Vivekananda Institute of Engineering, Bengaluru',
+    when: 'Aug 2023 to now', title: 'B.E. in Information Science and Engineering', org: 'Vivekananda Institute of Technology, Bengaluru',
     body: 'Visvesvaraya Technological University. CGPA 9.24.'
   },
   { when: 'Mar 2022', title: 'Pre-University Course (PCMB), Class XII', org: 'Vidya Nidhi Independent PU College, Tumkur', body: '90.16%' },
@@ -1871,7 +1871,7 @@ function About() {
           <div className="space-y-4 text-lg leading-relaxed text-slate-300">
             <p>I like the part of an application where the code meets the data. My base is Core Java: object-oriented design, exception handling, multithreading and the Collections Framework. On top of it I build web apps with JDBC, Servlets, JSP, HTML5, CSS3 and MySQL.</p>
             <p>I write SQL beyond basic queries, including joins, subqueries, views, CTEs, indexes, triggers, stored procedures and window functions. Outside the Java stack I build applied AI projects in Python, from fraud detection to medical imaging.</p>
-            <p>I study Information Science and Engineering at Vivekananda Institute of Engineering, Bengaluru, and I am a full stack development intern at Dhee Coding Lab. I want to build reliable, user-focused applications and keep learning modern development tools.</p>
+            <p>I study Information Science and Engineering at Vivekananda Institute of Technology, Bengaluru, and I am a full stack development intern at Dhee Coding Lab. I want to build reliable, user-focused applications and keep learning modern development tools.</p>
           </div>
           <div className="grid grid-cols-2 gap-4">
             {STATS.map((s) => (
